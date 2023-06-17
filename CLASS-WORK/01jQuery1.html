@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <!-- Javascript framework
+
+    framework : write less do more
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    document.getElementById
+
+    document.getElementByClassName
+
+    document.getElementByTagName
+
+    x = document.querySelector()
+
+    x = $(selector);
+
+    $(selector).method();//
+
+    $(document)/$(this) ==> keyword
+    $('tagname').method()
+    $('.className')
+    $('#idName') -->
+
+        <h1 class="x" id="x">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corrupti odio ratione dolores deserunt voluptate culpa laborum quis, vel eaque, voluptatem in suscipit iure fugit reiciendis molestias repellat aut dolorem.
+        </h1>
+
+        <button id="b1">HIDE</button>
+        <button id="b2">show</button>
+        <button id="b3">HIDEShow</button>
+
+
+        <script>
+
+            // $('h1').hide();
+
+            // $('.x').show();
+
+            // $('#x').hide();
+
+           $("#b1").click(function test(){
+
+            $('h1').hide(1000);
+           })
+
+           $("#b2").click(function test(){
+
+                $('h1').show(2300);
+            })
+
+            $("#b3").click(function test(){
+
+             $('h1').toggle();
+            })
+
+
+            // $(document).click(function (){
+            //     $('h1').hide();
+            // })
+
+            $("button").click(function test(){
+
+                 $(this).hide();
+            })
+
+
+
+
+           
+            
+
+
+        </script>
+</body>
+</html>
